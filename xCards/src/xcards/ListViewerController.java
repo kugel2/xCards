@@ -4,6 +4,8 @@
  */
 package xcards;
 
+import java.sql.*;
+import java.util.ArrayList;
 /**
  *
  * @author florian
@@ -23,6 +25,6 @@ public class ListViewerController {
             }
         });
     }
-
+    
 
 }
