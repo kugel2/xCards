@@ -1,5 +1,6 @@
 package xcards;
 
+import java.sql.*;
 import java.util.Date;
 /*
  * To change this template, choose Tools | Templates
@@ -15,6 +16,9 @@ public class XCards {
     /**
      * @param args the command line arguments
      */
+    
+    private static ApplicationController controller;
+    
     public static void main(String[] args) {
         // TODO code application logic here
      
@@ -43,10 +47,10 @@ public class XCards {
         //</editor-fold>
 
         
-        ListViewerController abc;
-        Date d;
-        d = new Date();
+        Date d = new Date();
         System.out.print("Test\n" + d.toString() + "\n");
-        abc = new ListViewerController();
+        
+        controller = new ApplicationController();
     }
+    
 }
