@@ -4,6 +4,8 @@
  */
 package xcards;
 
+import javax.swing.DefaultListModel;
+
 /**
  *
  * @author florian
@@ -112,6 +114,11 @@ public class ListViewer extends javax.swing.JFrame {
             }
         });
     }
+    
+    public void setListModel(DefaultListModel model) {
+        jList1.setModel(model);
+    }
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JList jList1;
     private javax.swing.JScrollPane jScrollPane1;
